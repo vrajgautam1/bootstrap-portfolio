@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body class="">
+
+
+
+    <div class="container">
+
+        <!--------------------------------- header start --------------------------------->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="/" class="navbar-brand logo">
+                    <span class="signs">&lt;</span>
+                    <span class="logo-name">Vraj Gautam</span>
+                    <span class="signs">/&gt;</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item fw-bolder" href="#">Resume</a></li>
+                                <li><a class="dropdown-item fw-bolder" href="#">Tools</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!------------------------------------ header end ------------------------------------->
+
+
+
+        <!----------------------------------- hero section start ------------------------------>
+
+
+        <div class="container col-xxl-8 px-4">
+            <div class="row flex-lg-row-reverse align-items-center g-5">
+
+
+                <div class="col-10 col-sm-8 col-lg-6 d-flex mx-auto" id="img-container">
+                    <img src="../assets/images/vraj-bg-removed.png" class="mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                        width="700" height="500px" loading="lazy" id="vraj-main-head">
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="my-5">
+                        <span class="text-gradient1" id="intro">Namasté, I'm</span>
+                        <h1 class="display-2 text-body-emphasis lh-1 py-3 newfont"><span id="name">Vraj Gautam</span></h1>
+                    </div>
+
+                    <div class="">
+                        <button type="button" class="btn border rounded-pill" id="headbtn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-stars text-light" viewBox="0 0 16 16">
+                                <path
+                                    d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z" />
+                            </svg>
+
+                            <span id="frontend" class="">
+                                Frontend Developer
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="social-icons pb-2 pt-2 mb-2 d-flex ps-2 gap-4 mt-3">
+
+                        <a href="https://discord.gg/pU4ukuWNBw" target="_blank" class=""><i
+                                class="fa-brands fa-x-twitter fs-4" style="color: #ffffff;"></i></a>
+                        <a href="https://discord.gg/pU4ukuWNBw" target="_blank" class=""><i
+                                class="fa-brands fa-instagram fs-4" style="color: #ffffff;"></i></a>
+                        <a href="https://discord.gg/pU4ukuWNBw" target="_blank" class=""><i
+                                class="fa-brands fa-github fs-4" style="color: #ffffff;"></i></a>
+                        <a href="https://discord.gg/pU4ukuWNBw" target="_blank" class=""><i
+                                class="fa-brands fa-linkedin fs-4" style="color: #ffffff;"></i></a>
+                        <a href="https://discord.gg/pU4ukuWNBw" target="_blank" class=""><i
+                                class="fa-brands fa-discord fs-4" style="color: #ffffff;"></i></a>
+
+                    </div>
+
+                    <div class="d-flex call-to-action mt-5">
+                        <a href="#contact" class=""><button type="button" class="btn me-4 btn-primary"><i
+                                    class="fa-solid fa-envelope" style="color: #ffffff;"></i> Contact Me</button></a>
+
+
+                        <a href="#projects" class=""><button type="button" class="btn secondary-bg-btn">View Portfolio<i class="fa-solid fa-arrow-up-right-from-square"style="color: #ffffff;"></i></button></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <!----------------------------------- hero section end -------------------------------->
+
+        <!------------------------------- about section start --------------------------------->
+
+
+        <section class="py-5 my-5 shadow rounded text-light" id="about">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-xxl-8">
+                        <div class="text-center ">
+                            <h2 class="display-5 fw-bolder text-center"><span class="text-gradient d-inline">About
+                                    me</span></h2>
+                            <p class="lead fw-light mb-4 text-light">My name is Vraj Gautam and I make <Span
+                                    id="solutions">Software Solutions.</Span></p>
+                            <p class=" text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+                                dolorum itaque qui unde quisquam consequatur autem. Eveniet quasi nobis aliquid cumque
+                                officiis sed rem iure ipsa! Praesentium ratione atque dolorem?</p>
+                            <div class="d-flex justify-content-center fs-2 gap-4">
+                                <a class="text-light" href="#!"><i
+                                        class="fa-brands fa-twitter linear-gradient"></i></i></a>
+                                <a class="text-light" href="#!"><i
+                                        class="fa-brands fa-linkedin linear-gradient"></i></i></a>
+                                <a class="text-light" href="#!"><i
+                                        class="fa-brands fa-github linear-gradient"></i></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------------- about section end ---------------------------------->
+
+
+
+
+        <!----------------------------------- Skills   section Start ----------------------------->
+
+        <div id="skills" class="rounded my-5 shadow container p-2 text-light">
+            <h2 class="display-5 fw-bolder text-center"><span class="text-gradient d-inline">Skills</span></h2>
+            <p class="lead text-center">Here are some of the <span
+                    class="border-bottom border-2 border-primary">Technologies</span> that are part of my current stack:
+            </p>
+            <div class="row g-4 py-5 p-3 d-block d-md-flex gap-4" id="skills">
+
+                <div class="col align-items-start shadow p-2 rounded">
+
+                    <div class="col d-flex align-items-start">
+                        <div
+                            class="text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                            <img src="./assets/images/html logo.png" alt="" style="border-radius: 10px;">
+                        </div>
+
+
+                        <div>
+                            <h3 class="fs-2 text-light">HTML - 90%</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="progress mt-3 bar1" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+
+                </div>
+
+                <div class="col align-items-start shadow p-2 rounded">
+
+                    <div class="col d-flex align-items-start">
+                        <div
+                            class="text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                            <img src="./assets/images/css logo.png" alt="" style="border-radius: 10px;">
+                        </div>
+
+
+                        <div>
+                            <h3 class="fs-2 text-light">CSS - 70%</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="progress mt-3 bar1" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+
+                </div>
+
+                <div class="col align-items-start shadow p-2 rounded col-md-4">
+
+                    <div class="col d-flex align-items-start">
+                        <div
+                            class="text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                            <img src="./assets/images/javascript logo.png" alt="" style="border-radius: 10px;">
+                        </div>
+
+
+                        <div>
+                            <h3 class="fs-2 text-light">Javascript - 30%</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="progress mt-3 bar1" role="progressbar" aria-label="Basic example" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 30%"></div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <!------------------------------------ skills section end ----------------------------->
+
+
+
+        <!--------------------------------- Tools Section Start-------------------------------->
+        <div class="container shadow my-5 rounded text-light pb-5">
+
+            <h2 class="display-5 fw-bolder text-center"><span class="text-gradient d-inline">Tools</span></h2>
+            <p class="text-center lead">Here are some of the <span
+                class="border-bottom border-2 border-primary">Technologies</span> that are part of my current stack:
+        </p>
+            <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 mt-4 gy-4 tools-container"
+                data-aos="fade-down" data-aos-delay="200">
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="/assets/images/tools/vscode.svg" alt="VSCode">
+                        <p class="tool-name">VSCode</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="/assets/images/tools/github.svg" alt="Github">
+                        <p class="tool-name">Github</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="/assets/images/tools/canva.svg" alt="Canva">
+                        <p class="tool-name">Canva</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="/assets/images/tools/ChatGPT.svg" alt="ChatGPT">
+                        <p class="tool-name">ChatGPT</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="tool">
+                        <img class="tool-image" src="/assets/images/tools/Gemini.svg" alt="Gemini">
+                        <p class="tool-name">Gemini</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tools Section end-->
+
+        <!-- projects section start -->
+        <div id="skills" class="rounded my-5 shadow container p-2 text-light" id="projects">
+            <h2 class="display-5 fw-bolder text-center"><span class="text-gradient d-inline">Projects</span></h2>
+            <p class="lead text-center">Here are some of the <span
+                    class="border-bottom border-2 border-primary">Frontend projects</span> that I made while learning MERN Stack
+            </p>
+            <div class="row g-4 py-5 p-3 d-block d-lg-flex gap-1" id="skills">
+
+
+                <!-- Project 1 -->
+                <div class="col align-items-start shadow rounded">
+                    <div class="card resume2 text-light projectscard container" >
+                        <div class="card-body d-flex justify-content-between align-items-center mb-3 ">
+                            <div>
+                                <h5 class="card-title">Tindog v2.0</h5>
+                                <p class="mb-0" id="smalltext">HTML | CSS | Bootstrap</p>
+                            </div>
+
+                            <a href="#projects" class=""><button type="button" class="btn secondary-bg-btn rounded-pill project-view-btn">View<i class="fa-solid fa-arrow-up-right-from-square"style="color: #ffffff;"></i></button></a>
+                        </div>
+
+                        <img src="../assets/images/projects/TinDog-v2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            
+                            <p class="card-text">Dating site especially made for dogs. what else can one wish for!!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col align-items-start shadow rounded">
+                    <div class="card resume2 text-light projectscard container" >
+                        <div class="card-body d-flex justify-content-between align-items-center mb-3 ">
+                            <div>
+                                <h5 class="card-title">Admin Panel</h5>
+                                <p class="mb-0" id="smalltext">HTML | CSS | jQuery</p>
+                            </div>
+
+                            <a href="#projects" class=""><button type="button" class="btn secondary-bg-btn rounded-pill project-view-btn">View  <i class="fa-solid fa-arrow-up-right-from-square"style="color: #ffffff;"></i></button></a>
+                        </div>
+
+                        <img src="./assets/images/projects/Admin-panel.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            
+                            <p class="card-text">Created Admin panel project by harnessing the true power of javascript</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col align-items-start shadow rounded">
+                    <div class="card resume2 text-light projectscard container" >
+                        <div class="card-body d-flex justify-content-between align-items-center mb-3 ">
+                            <div>
+                                <h5 class="card-title">Castaway</h5>
+                                <p class="mb-0" id="smalltext">HTML | CSS | Bootstrap | jQuery</p>
+                            </div>
+
+                            <a href="#projects" class=""><button type="button" class="btn secondary-bg-btn rounded-pill project-view-btn">View<i class="fa-solid fa-arrow-up-right-from-square"style="color: #ffffff;"></i></button></a>
+                        </div>
+
+                        <img src="./assets/images/projects/travel-website.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            
+                            <p class="card-text">Travel website to get the best deals on your favourite holiday destination.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    
+
+
+
+        <!-- resume section start -->
+        <div class="container shadow rounded newfont">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Experience Section-->
+                    <section>
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <h2 class="text-light fw-bolder mb-0">Experience</h2>
+                            <!-- Download resume button-->
+                            <!-- Note: Set the link href target to a PDF file within your project-->
+                            <a class="btn btn-primary px-2 py-3 rounded-pill" href="#!">
+                                <div class="d-inline-block bi bi-download "></div>
+                                Download Resume
+                            </a>
+                        </div>
+                        <!-- Experience Card 1-->
+                        <div class="card shadow rounded-4 mb-5 resume2">
+                            <div class="card-body p-5">
+                                <div class="row align-items-center gx-5">
+                                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                        <div class="bg-light p-4 rounded-4">
+                                            <div class="text-primary fw-bolder mb-2">2017 - 2019</div>
+                                            <div class="small fw-bolder">SEM Specialist</div>
+                                            <div class="small text-muted">Wayne Enterprises</div>
+                                            <div class="small text-muted">Gotham City, NY</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 text-light ">
+                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                                            laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet
+                                            officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro
+                                            fuga.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Experience Card 2-->
+                        <div class="card shadow rounded-4 mb-5 resume2">
+                            <div class="card-body p-5">
+                                <div class="row align-items-center gx-5">
+                                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                        <div class="bg-light p-4 rounded-4">
+                                            <div class="text-primary fw-bolder mb-2">2017 - 2019</div>
+                                            <div class="small fw-bolder">SEM Specialist</div>
+                                            <div class="small text-muted">Wayne Enterprises</div>
+                                            <div class="small text-muted">Gotham City, NY</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 text-light">
+                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                                            laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet
+                                            officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro
+                                            fuga.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Education Section-->
+                    <section>
+                        <h2 class="text-light fw-bolder mb-4">Education</h2>
+                        <!-- Education Card 1-->
+                        <div class="card shadow rounded-4 mb-5 resume2">
+                            <div class="card-body p-5">
+                                <div class="row align-items-center gx-5">
+                                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                        <div class="bg-light p-4 rounded-4">
+                                            <div class="text-primary fw-bolder mb-2">2015 - 2017</div>
+                                            <div class="mb-2">
+                                                <div class="small fw-bolder">Barnett College</div>
+                                                <div class="small text-muted">Fairfield, NY</div>
+                                            </div>
+                                            <div class="fst-italic">
+                                                <div class="small text-muted">Master's</div>
+                                                <div class="small text-muted">Web Development</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 text-light">
+                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                                            laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet
+                                            officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro
+                                            fuga.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Education Card 2-->
+                        <div class="card shadow rounded-4 mb-5 resume2">
+                            <div class="card-body p-5">
+                                <div class="row align-items-center gx-5">
+                                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                        <div class="bg-light p-4 rounded-4">
+                                            <div class="text-primary fw-bolder mb-2">2011 - 2015</div>
+                                            <div class="mb-2">
+                                                <div class="small fw-bolder">ULA</div>
+                                                <div class="small text-muted">Los Angeles, CA</div>
+                                            </div>
+                                            <div class="fst-italic">
+                                                <div class="small text-muted">Undergraduate</div>
+                                                <div class="small text-muted">Computer Science</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 text-light">
+                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+                                            laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet
+                                            officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro
+                                            fuga.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Divider-->
+                    <div class="pb-5"></div>
+                    <!-- Skills Section-->
+                    <section>
+                        <!-- Skillset Card-->
+                        <div class="card shadow rounded-4 mb-5 resume2">
+                            <div class="card-body p-5">
+                                <!-- Professional skills list-->
+                                <div class="mb-5">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div
+                                            class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
+                                            <i class="bi bi-tools"></i>
+                                        </div>
+                                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Professional
+                                                Skills</span></h3>
+                                    </div>
+                                    <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                        <div class="col mb-4 mb-md-0">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">SEO/SEM
+                                                Marketing</div>
+                                        </div>
+                                        <div class="col mb-4 mb-md-0">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                                Statistical Analysis</div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Web
+                                                Development</div>
+                                        </div>
+                                    </div>
+                                    <div class="row row-cols-1 row-cols-md-3">
+                                        <div class="col mb-4 mb-md-0">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Network
+                                                Security</div>
+                                        </div>
+                                        <div class="col mb-4 mb-md-0">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Adobe
+                                                Software Suite</div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">User
+                                                Interface Design</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Languages list-->
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- resume section end -->
+
+
+        <!-------------------------- contact me section start  -------------------------------->
+
+        <section id="contact" class="contact text-light newfont">
+            <div class="container aos-init aos-animate" data-aos="fade-up">
+      
+              <div class="section-title">
+                <h2 class="display-5 fw-bolder text-center"><span class="text-light newfont d-inline">Contact me</span></h2>
+                <p class="newfont lead">Get in touch with me have any </p>
+              </div>
+      
+              <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1248.090144823508!2d72.93389326174898!3d20.58718326660044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1716239909519!5m2!1sen!2sin" width="100%" height="270px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+      
+              <div class="row mt-5">
+
+                <div class="col-lg-4 border-end border-secondary border-2" id="contact-details">
+                  <div class="info">
+                    <div class="address">
+                      <i class="bi bi-geo-alt-fill"></i>
+                      <h4 class="text-light">Location:</h4>
+                      <p class="text-light">A108 Adam Street, New York, NY 535022</p>
+                    </div>
+      
+                    <div class="email mt-4">
+                      <i class="bi bi-envelope-fill"></i>
+                      <h4 class="text-light">Email:</h4>
+                      <p class="text-light">info@example.com</p>
+                    </div>
+      
+                    <div class="phone mt-5">
+                      <i class="bi bi-phone-fill"></i>
+                      <h4 class="text-light">Call:</h4>
+                      <p class="text-light">+1 5589 55488 55s</p>
+                    </div>
+
+                    <div class="phone mt-5">
+                        <i class="bi bi-share-fill"></i>
+                        <h4 class="text-light mb-2">Social Profiles:</h4>
+                        <p class="text-light">
+                            <a href="https://discord.gg/pU4ukuWNBw" target="_blank" class=""><i
+                                class="fa-brands fa-x-twitter fs-4" style="color: #ffffff;"></i></a>
+                        <a href="https://discord.gg/pU4ukuWNBw" target="_blank" class=""><i
+                                class="fa-brands fa-instagram fs-4" style="color: #ffffff;"></i></a>
+                        <a href="https://discord.gg/pU4ukuWNBw" target="_blank" class=""><i
+                                class="fa-brands fa-github fs-4" style="color: #ffffff;"></i></a>
+                        <a href="https://discord.gg/pU4ukuWNBw" target="_blank" class=""><i
+                                class="fa-brands fa-linkedin fs-4" style="color: #ffffff;"></i></a>
+                        <a href="https://discord.gg/pU4ukuWNBw" target="_blank" class=""><i
+                                class="fa-brands fa-discord fs-4" style="color: #ffffff;"></i></a>
+                        </p>
+                      </div>
+      
+                  </div>
+      
+                </div>
+      
+                <div class="col-lg-8 mt-5 mt-lg-0">
+      
+                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <div class="row">
+                      <div class="col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                      </div>
+                      <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                      </div>
+                    </div>
+                    <div class="form-group mt-3">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+                    </div>
+                    <div class="form-group mt-3">
+                      <textarea class="form-control text-light" name="message" rows="5" placeholder="Message" required=""></textarea>
+                    </div>
+                    <div class="my-3">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">Your message has been sent. Thank you!</div>
+                    </div>
+
+                    <a class="btn btn-primary px-2 rounded-pill" href="#!">
+                        Submit
+                    </a>
+                  </form>
+      
+                </div>
+      
+              </div>
+      
+            </div>
+          </section>
+        <!-------------------------- contact me section end  -------------------------------->
+        <!----------------------------------- footer start ------------------------------------>
+        <div class="container text-light">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <p class="col-md-4 mb-0 text">© 2024 Company, Inc</p>
+
+                <a href="/"
+                    class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="#" class="nav-link px-2">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2">Features</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2">About</a></li>
+                </ul>
+            </footer>
+        </div>
+        <!----------------------------------- footer end -------------------------------------->
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+.newfont{
+    font-family:'Plus Jakarta Sans', 'sans-serif'!important;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face{
+    font-family: Augustina;
+    src: url(./Agustina.woff);
+}
+
+
+.light-theme{
+    /* background: #000 url(./dark-bg.webp) 50% no-repeat; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    background-color: rgb(219, 222, 225) !important;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    background: #040404 url("./dark-bg.webp") top right no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+    filter: brightness(0.4);
+}
+
+/* Header Section */
+
+.logo-name{
+    font-family: 'Augustina', 'Plus Jakarta Sans', 'sans-serif';
+    color: #fff !important;
+    /* font-weight:400; */
+    font-size: 1.2rem;
+    /* font-weight: 400; */
+}
+
+.signs{
+    font-weight: 400;
+    color: #fff !important;
+    font-family:'Plus Jakarta Sans', 'sans-serif';
+}
+.nav-link{
+    font-family: 'Plus Jakarta Sans', 'sans-serif';
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+}
+
+#intro{
+    font-size: 30px;
+    font-family: 'Plus Jakarta Sans', 'sans-serif';
+}
+
+.navbar-toggler-icon{
+    color: #ffffff !important;
+    /* background-color: #fff; */
+}
+
+/* Hero Section */
+
+#header{
+    /* background-image: url(./assets/images/vraj-gautam.jpeg); */
+    background-size: cover;
+    /* filter: brightness(0.1); */
+    height: 700px;
+}
+
+@media(max-width:576px){
+    #header{
+        background-position-x:center;
+    }
+}
+
+@media(max-width:768px){
+    #header{
+        background-position-x: 90%;
+    }
+}
+
+@media(max-width:992px){
+    #header{
+        background-position-x: 90%;
+    }
+}
+
+#frontend{
+    font-size:1.2rem;
+    font-family: 'Plus Jakarta Sans', 'sans-serif';
+    color: #fff;
+}
+
+#headbtn{
+    border-top:1px solid rgb(255, 141, 255) !important;
+    border-right:1px solid rgb(255, 141, 255) !important;
+    border-left:1px solid #959eff !important;
+    border-bottom:1px solid #959eff !important;
+    backdrop-filter: blur(5px);
+}
+
+#name{
+
+    background: -webkit-linear-gradient(300deg, #e21e80 1%, #2226ff 100%);
+    /* backdrop-filter: blur(5px); */
+    font-family: 'Plus Jakarta Sans', 'sans-serif'!important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+.secondary-bg-btn{
+    background-color: #e64157!important;
+    color: #fff !important;
+}
+
+@media(max-width: 992px){
+    #img-container{
+        border-radius: 50%;
+        background-image: linear-gradient(300deg, #e21e80 1%, #2226ff 100%);
+        /* border-top:2px solid #e21e80 ; */
+    }
+
+    #vraj-main-head{
+        border-radius: 50%;
+    }
+}
+
+
+
+/* About Section */
+
+#skills, #about{
+    font-family: 'Plus Jakarta Sans', 'sans-serif';
+    
+}
+
+.skill-images{
+    border-radius: 50%;
+}
+
+.bar1{
+    border-radius: 0% !important;
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    /* backdrop-filter: blur(5px); */
+    font-family: 'Plus Jakarta Sans', 'sans-serif';
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.text-gradient1 {
+    background: -webkit-linear-gradient(315deg, #ffffff 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Plus Jakarta Sans', 'sans-serif';
+}
+
+#solutions{
+    border-bottom: 2px solid rgb(32, 55, 255); 
+}
+
+/* tools section */
+
+tools{
+    padding: 100px 0px 80px 0px;
+    background-size: contain;
+    min-height: 100vh;
+    font-family: 'Plus Jakarta Sans', 'sans-serif';
+}
+
+.tool{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 18px 0px;
+    border-radius: 25px;
+    backdrop-filter: blur(300px);
+    -webkit-backdrop-filter: blur(300px);
+    box-shadow: 0 0 1px 0 rgba(144,81,227,.5), 0 0 0.5px 0.5px rgba(141,53,229,.336);
+    -webkit-box-shadow: 0 0 1px 0 rgba(144,81,227,.5), 0 0 0.5px 0.5px rgba(141,53,229,.336);
+    font-family: 'Plus Jakarta Sans', 'sans-serif';
+}
+
+.tool-image{
+    width: 71px;
+    padding: 8px;
+}
+
+.tool-name{
+    letter-spacing: 2px;
+    font-size: 17px;
+    padding-top: 5px;
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', 'sans-serif';
+}
+
+/* projects */
+
+#smalltext{
+    font-size:10px !important;
+    font-family: 'Nanum Gothic Coding','sans-serif';
+}
+
+.project-view-btn{
+    background-color:rgb(144, 81, 227)!important;
+}
+
+.projectscard{
+    height: 100% !important;
+}
+
+#project{
+    background-image: url(./assets/images/grid.png);
+}
+/* resume  */
+
+.resume1{
+    background-color: rgba(0, 0, 0, 0.295) !important;
+    box-shadow: 0px 0px 5px #ffffff6d !important; ;
+}
+
+.resume2{
+    background-color: rgba(255, 255, 255, 0.084) !important;    
+    backdrop-filter: brightness(0.9) !important;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 1px 0 rgba(144,81,227,.5), 0 0 0.5px 0.5px rgba(141,53,229,.336);
+    -webkit-box-shadow: 0 0 1px 0 rgba(144,81,227,.5), 0 0 0.5px 0.5px rgba(141,53,229,.336);
+    border: 1px solid rgba(144,81,227,.5) !important;
+}
+
+/* contact section */
+
+.contact .info {
+    width: 100%;
+    /* background: #fff; */
+}
+
+.contact .info i {
+    font-size: 20px;
+    color: rgb(144, 81, 227);
+    float: left;
+    width: 44px;
+    height: 44px;
+    /* background: #effbf9; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #222222;
+}
+
+.contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #555555;
+}
+
+@media(max-width: 992px){
+    #contact-details{
+        border-right: none!important;
+    }
+    
+}
