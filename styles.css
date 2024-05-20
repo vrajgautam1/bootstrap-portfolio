@@ -147,6 +147,18 @@ body::before {
 
 /* About Section */
 
+#about{
+    background-image:url(./assets/images/grid.png);
+    background-size: contain;
+}
+
+/* skills section */
+
+#skills{
+    background-image:url(./assets/images/grid.png);
+    background-size: contain;
+}
+
 #skills, #about{
     font-family: 'Plus Jakarta Sans', 'sans-serif';
     
@@ -182,7 +194,11 @@ body::before {
 
 /* tools section */
 
-tools{
+#tools{
+    background-image: url(./assets/images/grid.png);
+    background-size: contain;
+}
+.tools{
     padding: 100px 0px 80px 0px;
     background-size: contain;
     min-height: 100vh;
@@ -231,8 +247,11 @@ tools{
     height: 100% !important;
 }
 
-#project{
+#projects{
     background-image: url(./assets/images/grid.png);
+    background-size: cover;
+    backdrop-filter: brightness(1);
+    backdrop-filter: blur(30px);
 }
 /* resume  */
 
@@ -248,6 +267,15 @@ tools{
     box-shadow: 0 0 1px 0 rgba(144,81,227,.5), 0 0 0.5px 0.5px rgba(141,53,229,.336);
     -webkit-box-shadow: 0 0 1px 0 rgba(144,81,227,.5), 0 0 0.5px 0.5px rgba(141,53,229,.336);
     border: 1px solid rgba(144,81,227,.5) !important;
+}
+
+.resume3{
+    background-color: rgba(43, 43, 43, 0.292) !important;    
+    backdrop-filter: brightness(0.3 ) !important;
+    backdrop-filter: blur(100px);
+    box-shadow: 0 0 1px 0 rgba(144,81,227,.5), 0 0 0.5px 0.5px rgba(141,53,229,.336);
+    -webkit-box-shadow: 0 0 1px 0 rgba(144,81,227,.5), 0 0 0.5px 0.5px rgba(141,53,229,.336);
+    border: 1px solid rgba(179, 121, 255, 0.674) !important;
 }
 
 /* contact section */
@@ -288,7 +316,7 @@ tools{
 
 @media(max-width: 992px){
     #contact-details{
-        border-right: none!important;
+        border-right: none!;
     }
     
 }
