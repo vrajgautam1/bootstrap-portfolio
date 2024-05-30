@@ -45,6 +45,10 @@ body::before {
 
 /* Header Section */
 
+.fixed{
+    position: fixed;
+}
+
 .logo-name{
     font-family: 'Augustina', 'Plus Jakarta Sans', 'sans-serif';
     color: #fff !important;
